@@ -1,0 +1,168 @@
+.border{
+    border: 2px solid rgb(14, 13, 13);
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m1{
+    margin : 5px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.arrow{
+    height: 16px;
+    width: 16px;
+    margin-top:28px;
+    padding: 10px 10px;
+    background-color: rgb(232, 240, 233);
+    border: 2px rgb(30, 29, 29);
+    border-radius:100px;
+}
+
+.buttons{
+    padding:20px;
+   
+}
+
+.crd{
+    margin-top: 15px;
+    
+    height: 140px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 100px;
+  
+}
+
+.txt{
+    margin-left: 10px;
+}
+
+.txt2{
+    color: grey;
+    font-size: 14px;
+}
+
+.newcrd{
+    height: 140px;
+   margin-left: 11px;
+    width : 135px;
+    margin-top: 15px;
+    border:2px;
+    border: radius 7px;
+}
+
+.btn1{
+    background-color: rgb(11, 11, 11);
+    color: rgb(186, 181, 181);
+    font-weight: 800;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 18px;
+    margin-right: 10px;
+    
+}
+
+.btn2{
+    background-color: rgb(248, 243, 243);
+    color: rgb(7, 1, 1);
+    font-weight: 800;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: 2px solid black;
+    border-radius: 66px;
+
+}
+
+.btn1:hover{
+    font-size: 1.1rem;
+    color: white;
+}
+.btn2:hover{
+    font-size: 1.05rem;
+}
+
+.songList {
+    height: 366px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
+
+.songList ul {
+    padding: 0 12px;
+}
+
+.songList ul li {
+    list-style-type: decimal;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: 1px solid rgba(220, 210, 210, 0.491);
+    margin: 12px 0;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.songList .info {
+    font-size: 14px;
+    width: 344px;
+   
+}
+
+.info div {
+    word-break: break-all;
+}
+
+.playnow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playnow span {
+    font-size: 14px;
+    width: 64px;
+    padding: 12px;
+}
+ 
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+}
+.songinfo{
+    width:300px
+}

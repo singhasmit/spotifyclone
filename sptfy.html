@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=>, initial-scale=1.0">
+  <title>Spotify Music Player</title>
+  <link rel="stylesheet" href="sptfy.css">
+  <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+  <div class="container flex bg-black">
+
+    <div class="left">
+
+      <div class="home bg-grey rounded m1 p1">
+        <img class="invert" src="logo.svg">
+
+        <ul>
+          <li> <img class="invert" src="home.svg" alt="home">Home</li>
+          <li> <img class="invert" src="search.svg" alt="search">Search</li>
+        </ul>
+      </div>
+
+      <div class="library  ">
+        <div class="heading">
+          <img class="invert" src="library.svg">
+          <h3>Your Library</h3>
+        </div>
+        <div class="songList">
+          <ul></ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/jp/privacy/"><span> Safety & Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+          <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+          <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="right border ">
+      <div class="header">
+        <div class="nav">
+          <img class="arrow invert" src="left.svg">
+          <img class="arrow invert" src="right.svg">
+        </div>
+        <div class="buttons">
+          <button class="btn1">Sign up</button>
+          <button class="btn2">Log in</button>
+        </div>
+      </div>
+      <div class="artist">
+        <h2>Popular artists</h2>
+
+        <div class="cardcontainer flex">
+        
+          <div class="cards">
+            <img class="crd" src="pritam.jpeg">
+            <h3 class="txt">Pritam</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+        
+          <div class="cards">
+            <img class="crd" src="arijit singh.jpeg">
+            <h3 class="txt">Arijit Singh</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+
+          <div class="cards">
+            <img class="crd" src="ar rehman.jpeg">
+            <h3 class="txt">A.R. Rahman</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+
+          <div class="cards">
+            <img class="crd" src="sachin.jpeg">
+            <h3 class="txt">Sachin Jigar</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+
+          <div class="cards">
+            <img class="crd" src="anirudh.jpeg">
+            <h3 class="txt">Anirudh...</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+
+          <div class="cards">
+            <img class="crd" src="vishal.jpeg">
+            <h3 class="txt">Vishal Mishra</h3>
+            <p class="txt txt2">Artist</p>
+          </div>
+
+          <div class="cards">
+            <img class="crd" src="atif.jpeg">
+            <h3 class="txt">Atif Aslam</h3>
+            <p class="txt">Artist</p>
+          </div>
+        </div>
+        <div class="albums">
+          <h2>Popular Albums</h2>
+          <div class="alb-cards" >
+            <div class="cards" source = "Aashiqui2 (The Love Theme)">
+              <img class="newcrd" src="asq2.jpeg">
+              <h4 class="txt">Aashiqui 2</h4>
+              <p class="txt txt2">Mithoon,Ankit Tiwari,Jeet Gannguly
+            </div>
+
+            <div class="cards" source="Ek Tha Raja">
+              <img class="newcrd" src="raja.jpeg">
+              <h4 class="txt">Ek Tha Raja</h4>
+              <p class="txt txt2">Badshah
+            </div>
+
+            <div class="cards" source="Arjan Vailly - Animal">
+              <img class="newcrd" src="animal.jpeg">
+              <h4 class="txt">ANIMAL</h4>
+              <p class="txt txt2">Manan Bhardwaj,Vishal Mishra,Jaani
+            </div>
+
+            <div class="cards" source="O-Sajni-Re">
+              <img class="newcrd" src="sajni.jpeg">
+              <h4 class="txt">Sajni(from...</h4>
+              <p class="txt txt2">Mithoon,Ankit Tiwari,Jeet Gannguly
+            </div>
+
+            <div class="cards" source="295">
+              <img class="newcrd" src="moose.jpeg">
+              <h4 class="txt">Moosetape</h4>
+              <p class="txt txt2">Mithoon,Ankit Tiwari,Jeet Gannguly
+            </div>
+
+            <div class="cards" source="Still Rollin">
+              <img class="newcrd" src="berlin.jpeg">
+              <h4 class="txt">Still Rollin</h4>
+              <p class="txt txt2">Shubh
+            </div>
+
+            <div class="cards" source="Saari Duniya Jalaa Denge">
+              <img class="newcrd" src="last.jpeg">
+              <h4 class="txt">Making Memories</h4>
+              <p class="txt txt2">Karan Aujla,Ikky
+            </div>
+
+
+          </div>
+        </div>
+       <!-- <div class="charts">
+          <h2>Popular Charts</h2>
+          <div class="chrt flex">
+            <div class="cards">
+              <img class="newcrd" src="topglb.jpg">
+              <h4 class="txt">Top Songs Global</h4>
+
+            </div>
+            <div class="cards">
+              <img class="newcrd" src="topsngsusa.jpg">
+              <h4 class="txt">Top Songs USA</h4>
+
+            </div>
+            <div class="cards">
+              <img class="newcrd" src="top50.jpg">
+              <h4 class="txt">Top 50 Global</h4>
+
+            </div>
+
+            <div class="cards">
+              <img class="newcrd" src="viral50.jpg">
+              <h4 class="txt">Viral 50</h4>
+
+            </div>
+            <div class="cards">
+              <img class="newcrd" src="viral50usa.jpg">
+              <h4 class="txt">Viral 50 USA</h4>
+
+            </div>
+          </div>
+        </div>-->
+
+
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="abovebar">
+            <div class="songinfo"></div>
+            <div class="songbuttons , invert">
+              <img id="previous" src="prevsong.svg">
+              <img id="play" src="play.svg">
+              <img id="next" src="nextsong.svg">
+
+            </div>
+            <div class="songtime"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
